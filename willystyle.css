@@ -1,0 +1,112 @@
+body
+{
+    column-count: 3;
+    background-color: #301934;
+
+    color: goldenrod;
+    font-family: monaco, monospace;
+
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+h1
+{
+    font-family: monaco, monospace;
+    font-size: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+h2
+{
+    padding-top: 0px;
+}
+
+ul li
+{
+    margin-bottom: 20px;
+}
+
+#enter-button
+{
+    border-radius: 8px;
+    background-color: purple;
+    color:aliceblue;
+    border: 2px solid goldenrod;
+    font-size: x-large;
+    width: 180px;
+
+    transition-duration: 0.2s;
+
+    box-shadow: 0 8px gray;
+    
+}
+
+#enter-button:hover
+{
+    background-color: goldenrod;
+    color: purple;
+}
+
+#enter-button:active
+{
+    box-shadow: 0 5px goldenrod;
+    transform: translateY(2px);
+}
+
+#Entered-Tickets
+{
+    display: grid;
+    align-content: center;
+}
+
+li
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+    background-color: purple;
+}
+
+.entrant-name:before
+{
+    font-weight: 900;
+    content: "Entrant Name: ";
+}
+
+.entrant-name
+{
+    padding: 10px;
+}
+
+.entrant-age:before
+{
+    font-weight: 900;
+    content: "Age: ";
+}
+
+.entrant-age
+{
+    padding: 10px;
+}
+
+
+.guest-name:before
+{
+    font-weight: 900;
+    content: "Guest Name: ";
+}
+
+.guest-name
+{
+    padding: 10px;
+}
+
+
